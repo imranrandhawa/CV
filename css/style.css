@@ -1,0 +1,167 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* section {
+  height: 30vh;
+} */
+.clear-background {
+  width: 10rem;
+  mix-blend-mode: multiply;
+}
+h1 {
+  font-size: 2.8rem;
+}
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+#lieb1 .container-fluid {
+  width: 100%;
+  height: 43.75rem;
+}
+#navbar-section .container-fluid {
+  padding: 0 15%;
+}
+/* Section Titie */
+#navbar-section {
+  background-color: #dff6ff;
+}
+.nav-item {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.active,
+.nav-link:hover {
+  color: blue;
+}
+/* #navbar-section a:hover {
+  background-color: #47b5ff;
+}
+#navbar-section a.active {
+  color: green;
+  background-color: #47b5ff;
+} */
+#navbar-section .nav-item a:hover {
+  background-color: #47b5ff;
+}
+#navbar-section .nav-item a.active {
+  color: green;
+  background-color: #47b5ff;
+}
+/* Section Title */
+#lieb1 {
+  background-color: #47b5ff;
+}
+#lieb1 .container-fluid {
+  padding-top: 6%;
+}
+.container-fluid .title-lieb1 {
+  font-size: 2rem;
+  padding-top: 2%;
+}
+.lieb1-img {
+  width: 100%;
+  border-radius: 30%;
+}
+.container-fluid p {
+  padding-top: 4%;
+  font-size: 1.5rem;
+}
+/* Section Title Parahgraph */
+#lieb1-paragraph {
+  background-color: #f9f9f9;
+}
+#lieb1-paragraph .container-fluid {
+  padding-top: 6%;
+}
+.lieb1-paragraph-img {
+  width: 100%;
+  border-radius: 30%;
+}
+/* Section Contact */
+#contact {
+  background-color: #8cc0de;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#contact .container-fluid {
+  padding: 2% 15%;
+}
+/* Section Footer */
+#footer {
+  background-color: #2155cd;
+  color: white;
+}
+#footer .container-fluid {
+  padding: 1% 15%;
+  text-align: center;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+/* Section Leistungen */
+.clear-background1 {
+  mix-blend-mode: multiply;
+  text-align: center;
+}
+.leistungen-img {
+  width: 75%;
+}
+/* Section Reference */
+.reference-img {
+  width: 100%;
+  border-radius: 30%;
+}
+/* Section Werdegang */
+.degree-img {
+  width: 80%;
+  border-radius: 30%;
+}
+/* Section Konackt */
+#contact .container-fluid {
+  padding-top: 10rem;
+  width: 100%;
+  height: 43.75rem;
+}
+#leer .container-fluid {
+  width: 100%;
+  /* height: 6rem; */
+}
+/* Scroll Button */
+.scrollToTopBtn {
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+
+  /* place it at the bottom right corner */
+  position: fixed;
+  /* bottom: 20px; */
+  /* right: 20px; */
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all 0.5s ease;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Datenschutz */
+.margen {
+  padding: 5rem;
+}
